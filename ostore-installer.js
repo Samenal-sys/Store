@@ -3,7 +3,7 @@
 
   // This script is carried to the System page through window.name, so its
   // currentScript has no URL. Keep the update source on GitHub Pages.
-  var SCRIPT_BASE = "https://garbagebuild.github.io/JScalated-Store/";
+  var SCRIPT_BASE = "https://samenal-sys.github.io/Store/";
   var UPDATE_URL = new URL("Apps-directory/OStore/update.webmanifest", SCRIPT_BASE).href;
   var root = document.getElementById("jscalated-store-installer");
   if (root) { root.style.display = "block"; return; }
